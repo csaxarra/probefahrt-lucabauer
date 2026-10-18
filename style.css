@@ -57,7 +57,7 @@ body {
 
 																								/* SMARTPHONE*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 648px) {
 	
 .menue {
 	position: fixed;
