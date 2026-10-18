@@ -52,7 +52,62 @@ body {
 	min-height: 100%;
 }
 
+
+/* SMARTPHONE*/
+
+@media (max-width: 480px) {
 	
+.menue {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	background-color: #313638;
+	z-index: 1000;
+}
+
+.menuetextlinks {
+	float: left;
+}
+
+.menuetextrechts {
+}
 
 
+.menuebutton {
+	border-radius: none;
+	background-color: #313638;
+	border: none;
+	font-family: Verdana;
+	color: #E0DFD5;
+	font-size: 150%;
+	font-style: italic;
+	cursor: pointer;
+	text-shadow: 1px 1px 1px black;
+	margin-left: 10px;
+	margin-top: 15px;
+}
 
+.navigation {
+	display: flex;
+	gap: 20px;
+	padding-top: 15px;
+
+}
+
+.navigationbutton {
+	border: none;
+	border-radius: none;
+	font-size: 110%;
+	cursor: pointer;
+	background-color: #313638;
+	color:white;
+}
+
+body {
+	background: linear-gradient(to right, #e0dfd5, #e8e9eb);
+	background-attachment: fixed;
+	min-height: 100%;
+}
+}
