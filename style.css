@@ -1,0 +1,58 @@
+.menue {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #313638;
+	z-index: 1000;
+}
+
+.menuetextlinks {
+	float: left;
+}
+
+.menuetextrechts {
+	float: right;
+}
+
+.menuebutton {
+	border-radius: none;
+	background-color: #313638;
+	border: none;
+	font-family: Verdana;
+	color: #E0DFD5;
+	font-size: 150%;
+	font-style: italic;
+	cursor: pointer;
+	text-shadow: 1px 1px 1px black;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+
+.navigation {
+	display: flex;
+	gap: 20px;
+	padding: 5px;
+	padding-right: 10px;
+}
+
+.navigationbutton {
+	border: none;
+	border-radius: none;
+	font-size: 110%;
+	cursor: pointer;
+	background-color: #313638;
+	color:white;
+}
+
+body {
+	background: linear-gradient(to right, #e0dfd5, #e8e9eb);
+	background-attachment: fixed;
+	min-height: 100%;
+}
+
+
+
+.textbaustein1
+
