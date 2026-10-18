@@ -55,7 +55,7 @@ body {
 
 /* SMARTPHONE*/
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 	
 .menue {
 	position: fixed;
@@ -72,6 +72,7 @@ body {
 }
 
 .menuetextrechts {
+	color: white;
 }
 
 
